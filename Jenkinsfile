@@ -2,7 +2,7 @@ pipeline {
      agent {
           docker {
                image 'maven:3-amazoncorretto-17'
-               args '-p 8090:33333'
+               args '-p 33333:8090'
                dir '/workspace'
           }
      }
