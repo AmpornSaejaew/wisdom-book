@@ -12,7 +12,7 @@ pipeline {
           stage('Source') {
                steps {
                     git branch: 'main',
-                        url: 'https://github.com/AmpornSaejaew/wisdom-book.git'
+                        url: 'https://github.com/AmpornSaejaew/wisdom-book'
                }
           }
           stage('Build') {
